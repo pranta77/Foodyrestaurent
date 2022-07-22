@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.food{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.img-1 img{
+    padding: 40px 40px;
+    width: 400px;
+    height: 400px;   
+}
+.order{
+    border-radius: 70px;
+    padding: 15px 15px;
+   background-color: red;
+   font-size: larger;
+   cursor: pointer;
+}
+.welcome{
+    font-size: 50px;
+    color:red
+    
+}
+.to{
+    color: black;
+}
+.foody{
+    font-size: 60px;
+}
+.test{
+    font-size: 60px;
+}
+.cannot{
+    font-style: italic;
+    font-size: 22px;
+}
+.tas{
+    font-style: italic;
+    font-size: 22px;
+}
+.about{
+    font-size: 50px;
+    font-family: 'Sansita Swashed', cursive;
+    padding: 50px 50px;
+}
+.the{
+    font-size: large;
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    padding: 05px 50px;
+}
+.order-2{
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 10px 15px;
+   background-color: red;
+   font-size: larger;
+   cursor: pointer;
+}
+.midd{
+    width: 50%;
+    margin: 0 auto;  
+}
+.our{
+    text-align: center;
+    font-size: 40px;
+}
+.primari{
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Sansita Swashed', cursive;
+}
+.third{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between
+    
+}
+.special img{
+    width: 350px;
+}
+.special{
+    margin: 30px;
+    border-radius: 10px;
+   box-shadow: 5px 5px 5px 5px gray;
+   padding: 20px;
+   font-family: 'Sansita Swashed', cursive;
+}
+.pic img{
+    width: 350px;
+}
+.pic-2 img{
+    width: 350px;
+}
+.view{
+    margin-top: 5%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 10px 15px 15px 15px gray;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.size{
+    font-size: 50px;
+}
+.delivery{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 40px; */
+    align-items: center;
+    
+}
+.pic-3 img{
+    margin: 10px;
+    width: 550px;
+    height: 550px;
+}
+.provied h1{
+    font-size: 70px;
+}
+.provied{
+    padding-left: 60px;
+}
+.provied h4{
+    padding: 20px;
+    font-family: initial;
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive; 
+}
+.provied input{
+    padding: 15px 20px;
+}
+.provied button{
+    padding: 15px 15px;
+    font-size: 20px;
+    background-color:red;
+    cursor: pointer;  
+}
+.live{
+    margin:30px;
+    width: 80%;
+    margin: 0 auto; 
+}
+.res h1{
+    font-size: 40px;
+    text-align: center;
+    color: tomato;
+  
+}
+.res h4{
+    padding: 20px;
+    font-size:large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .food{
+        flex-direction: column;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .special img{
+        width: 300px;
+    }
+    .img-1 img{
+        width: 300px;
+    }
+    .view{
+        flex-direction: column;
+    }
+    .delivery{
+        flex-direction: column;
+    }
+  }
+
+
+
+
+
+
